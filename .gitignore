@@ -5,3 +5,15 @@ application.linux64
 application.windows32
 application.windows64
 application.macosx
+
+void setup(){
+  size(1000,600);
+  noStroke();
+}
+void draw(){
+  fill(random(255),random(255),random(255));
+  rect(0,0,1000,600);
+  fill(random(255),random(255),random(255));
+  rect(200,0,200,600);
+  rect(0,200,1000,200);
+}
