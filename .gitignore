@@ -7,7 +7,7 @@ application.windows64
 application.macosx
 
 void setup(){
-  size(1000,700);
+  size(1000,600);
   noStroke();
 }
 void draw(){
